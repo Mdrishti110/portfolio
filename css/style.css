@@ -1,0 +1,238 @@
+body {
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+    background-color: #D9FAFF;
+    color: #40514E;
+    line-height: 2;
+}
+
+h1{ 
+   margin: 0;
+   font-family: 'Sacramento', cursive;;
+   font-size: 500%;
+} 
+
+h2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+h3 {
+    color:#005792;
+    font-size: 110%;
+}
+
+hr {
+    border: none;
+    border-top-style: dotted;
+    border-width:6px;
+    width: 5%;
+    border-color:#005792;
+}
+
+a {
+    color:#00204A;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D9FAFF;
+}
+
+.name{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #D9FAFF;
+}
+
+.mountain {
+    width: 100%;
+}
+
+.top-div {
+    margin:0;
+    position: relative;
+    background-color: #035397;
+}
+
+.cloud-down {
+    width: 10%;
+    position:absolute;
+    left:18%;
+    bottom: 80%;
+}
+
+.cloud-up {
+    width: 10%;
+    position:absolute;
+    right:18%;
+    top:3%;
+}
+
+.hello {
+    color: #00204A;
+}
+
+.hobbies {
+    color: #00204A;
+    margin-top: 5%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 7% auto 7% auto;
+  
+}
+
+.profile {
+        width: 15%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+}
+
+.web {
+    width: 25%;
+    float: left;
+    padding-right: 3%;
+    
+}
+
+.dance{
+    width: 25%;
+    float: right;
+    padding-left: 3%;
+    
+}
+
+.art{
+    width: 25%;
+    float: left;
+    padding-right: 3%;
+}
+
+.yoga{
+    width: 25%;
+    float: right;
+    padding-left: 3%;
+}
+
+.pro-para {
+    width: 30%;
+    margin: 0 auto 5% auto;
+}
+
+.web-para {
+    text-align: left;
+}
+
+.dance-para {
+    text-align: right;
+}
+
+.art-para {
+    text-align: left;
+}
+
+.yoga-para {
+    text-align: right;
+}
+
+
+.head-web {
+    text-align: left;
+}
+
+.head-dance {
+    text-align: right;
+}
+
+.head-art {
+    text-align: left;
+}
+
+.head-yoga {
+    text-align: right;
+}
+
+
+.contact-me {
+        margin-top: 5%;
+}
+
+.contact-para {
+    width:30%;
+    margin: auto auto 3% auto;
+}
+
+.bottom-container {
+    background-color:#00BBF0;
+    margin-top: 5%;
+    padding-top: 3%;
+    position: relative;
+}
+
+.footer-link {
+    display: inline-block;
+    
+}
+
+.insta {
+    width: 25px;
+    position: absolute;
+    top: 37%;
+
+}
+
+.in{
+    width: 25px;
+    position: absolute;
+    top: 37%;
+}
+
+.surname {
+    margin-bottom: 0;
+    color: #D9FAFF;
+    font-size: 0.9rem;
+}
+
+.fb {
+    width: 38px;
+    position: absolute;
+    top: 33%;
+    right: 42%;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #084d78;
+    background-image: -webkit-linear-gradient(top, #084d78, #0083db);
+    background-image: -moz-linear-gradient(top, #084d78, #0083db);
+    background-image: -ms-linear-gradient(top, #084d78, #0083db);
+    background-image: -o-linear-gradient(top, #084d78, #0083db);
+    background-image: linear-gradient(to bottom, #084d78, #0083db);
+    text-decoration: none;
+  }
